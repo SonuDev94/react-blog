@@ -1,24 +1,27 @@
 //Rerender component in loop using map
 //Pass data in component inside loop
+
+import UserItem from "./UserItem";
+
 //
 function LoopMap() {
     const userData = [{
-        id:1,
+        id: 1,
         name: "Sonu Kumar",
         email: "sonu@gmail.com",
         age: 30
     }, {
-        id:2,
+        id: 2,
         name: "Vikram",
         email: "kikram@gmail.com",
         age: 33
     }, {
-        id:3,
+        id: 3,
         name: "VijayKamandu",
         email: "vijayKamandu@gmail.com",
         age: 22
     }, {
-        id:4,
+        id: 4,
         name: "Alexzender",
         email: "alexzender@gmail.com",
         age: 39
@@ -26,9 +29,7 @@ function LoopMap() {
     ]
     return (
         <div>
-            <h3>Loop in JSX with map function</h3>
-
-
+            { /*<h3>Loop in JSX with map function</h3>
             <table border="1">
                 <thead>
                     <tr>
@@ -48,7 +49,16 @@ function LoopMap() {
                     }
                 </tbody>
             </table>
-
+            */
+            }
+            <h3>Resuse Component in Loop</h3>
+            {
+                userData.map((item)=>(
+                    <div key={item.id}>
+                        <UserItem data={item}/>
+                    </div>
+                ))
+            }
 
         </div>
     )

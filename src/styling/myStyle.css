@@ -1,0 +1,25 @@
+.heading{
+    color: green
+}
+
+.img-style{
+    width: 150px;
+    height: 150px;
+}
+
+.user-card{
+    border: 1px solid #abb;
+    width: 150px;
+    box-shadow: 10px -5px 5px 1px #abc;
+    margin: 10px 10px 20px 10px;
+}
+
+.bottom-view{
+    padding: 10px;
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -29,7 +29,7 @@ function ControlledComponent() {
     const [password, setPassword] = useState("")
     const [email, setEmail] = useState("")
     const [skills, setSkills] = useState([])
-    const [gender, setGender] = useState("Male")
+    const [gender, setGender] = useState("Male") 
     const [city, setCity] = useState("Delhi")
 
     const handleSkill = (event) => {

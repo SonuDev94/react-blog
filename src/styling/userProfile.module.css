@@ -1,0 +1,19 @@
+.heading {
+    color: red;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 150px;
+    border: 1px solid #abc;
+    box-shadow: 10px 10px 2px 1px #abc;
+    margin: 10px 10px 10px 10px;
+}
+
+.info_view {
+    padding: 10px;
+}
